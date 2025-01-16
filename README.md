@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Elixir when using `Enum.each` and `throw`. The `throw` statement immediately exits the entire function, preventing subsequent code from executing.  The solution provides a more robust approach using a different function or a conditional check within the `Enum.each` to handle the exception.
